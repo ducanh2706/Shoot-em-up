@@ -1,0 +1,2 @@
+all:
+	g++ main.cpp draw.cpp utils.cpp -o main -I/Library/Frameworks/SDL2.Framework/Headers/ -I/Library/Frameworks/SDL2_Image.Framework/Headers -F/Library/Frameworks -framework SDL2 -framework SDL2_Image && ./main
